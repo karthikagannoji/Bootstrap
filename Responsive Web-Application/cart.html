@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cart Page</title>
+<!-- Bootstrap CSS -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.cs
+s" rel="stylesheet">
+<link rel="stylesheet" href="stylecss">
+<style>
+body {
+background-color: #f8f9fa;
+}
+.header-img {
+height: 100px;
+}
+.custom-header {
+background-color: #ffffff;
+color: white;
+padding: 20px 0;
+}
+.custom-nav a {
+color: white;
+text-decoration: none;
+padding: 10px 20px;
+display: inline-block;
+}
+.custom-nav a:hover {
+background-color: #495057;
+border-radius: 5px;
+}
+</style>
+<link
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+<!-- Header Section -->
+<header class="custom-header text-center">
+<div class="container d-flex align-items-center justify-content-between">
+<img src="jblogo.jpg" alt="JB LOGO" class="header-img">
+<h1 class="mb-0">JB Online Book Store - Best Online Ebooks Store</h1>
+</div>
+</header>
+<!-- Navigation Section -->
+<nav class="bg-dark custom-nav text-center">
+<a href="index.html">Home</a>
+<a href="login.html">Login</a>
+<a href="registration.html">Register</a>
+<a href="cart.html">Cart</a>
+</nav>
+<!-- Main Content -->
+<main class="container my-5">
+<h1 class="text-center mb-4">Your Cart</h1>
+<div class="table-responsive">
+<table class="table table-bordered">
+<thead class="table-dark">
+<tr>
+<th>Item</th>
+<th>Description</th>
+<th>Price</th>
+<th>Quantity</th>
+<th>Total</th>
+<th>Actions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> 1 </td>
+Department of CSE, JBIET Page 22
+<td>Java Programming</td>
+<td> 2300</td>
+<td><input type="number" value="1" class="form-control"
+style="width: 80px;"></td>
+<td>2300</td>
+<td><button class="btn btn-danger btnsm">
+Remove</button></td>
+</tr>
+<tr>
+<td>2 </td>
+<td>Web Technologies</td>
+<td>3000</td>
+<td><input type="number" value="1" class="form-control"
+style="width: 80px;"></td>
+<td>3000</td>
+<td><button class="btn btn-danger btnsm">
+Remove</button></td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<th colspan="4" class="text-end">Grand Total</th>
+<th colspan="2">5000</th>
+</tr>
+</tfoot>
+</table>
+</div>
+<div class="text-center mt-4">
+<button class="btn btn-primary">Proceed to Checkout</button>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+<p class="mb-0">&copy; 2026 JB Online Book Store. All rights reserved.</p>
+</footer>
+<!-- Bootstrap JS -->
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.m
+in.js"></script>
+</div>
+</body>
+</html>
